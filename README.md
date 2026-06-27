@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# KIA Bus Finder (Vayu Vajra Tracker) ✈️🚌
 
-## Getting Started
+KIA Bus Finder is a premium, minimal, dark-mode transit utility web application built with **Next.js 14**, **Tailwind CSS**, and **Leaflet.js** to help travelers in Bangalore find the nearest BMTC Vayu Vajra (airport connection) bus stops and schedule timetables instantly.
 
-First, run the development server:
+---
 
+## 🌟 Key Features
+
+*   📍 **GPS Proximity Stop Finder**: Matches your current coordinates to the nearest Vayu Vajra stops with 100% geocoding accuracy from BMTC databases.
+*   🗺️ **Interactive Transit Map**: Features custom dark tiles (CartoDB Dark), marker clustering, and a dynamic dotted routing polyline from your location directly to the selected stop.
+*   📦 **Grouped Stop Timetables**: Combines adjacent stops (within 100m) serving multiple Vayu Vajra routes into a single card showing next departures and calculated airport arrival times (e.g. `Departs 17:45 (KIA-8E) → Arrives airport ~19:35`).
+*   🗓️ **Dedicated Timetable View**: Displays full day-by-day timetables separated by tabs for each route, showing count of remaining departures, bolded upcoming buses, dimmed past timings, and sun/moon day-night indicator icons.
+*   🚕 **Cab Booking Integration**: Allows quick deep-linking to **Uber**, **Ola**, and **Rapido** with coordinates parameters automatically set for booking a cab directly to the stop.
+*   🎨 **HTML5 Canvas Backdrop**: The landing page features a custom transit canvas background simulating live locator radar scans, bouncing orbs, and GPS ping coordinates without adding heavy third-party bundle weight.
+
+---
+
+## 🛠️ Technology Stack
+
+*   **Framework**: Next.js 14 (App Router)
+*   **Styling**: Tailwind CSS & Vanilla CSS keyframes
+*   **Icons**: Lucide React
+*   **Maps**: Leaflet.js & Leaflet.markercluster (with custom React wrapper)
+*   **Language**: TypeScript (Type-safe compilation)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Prerequisites
+Ensure you have Node.js (v18+) and npm installed.
+
+### 2. Install Dependencies
+Clone the repository and install all required packages:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 3. Compile Geocoded Data
+The app uses matched BMTC coordinates. Build the geocoding pipeline:
+```bash
+npx tsx scripts/match-stops.ts
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 4. Run Development Server
+Start the Next.js local server:
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 5. Production Compilation
+Generate the optimized build bundle:
+```bash
+npm run build
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 Disclaimers
+This is a utility planner. Schedules are static and based on public BMTC timetables. Always verify timings with the bus conductor or operator before boarding.

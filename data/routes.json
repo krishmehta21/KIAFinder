@@ -1,0 +1,3027 @@
+{
+  "routes": [
+    {
+      "id": "KIA-15A",
+      "terminus": "WHITE FIELD TTMC (BACK GATE)",
+      "journeyTimeMinutes": 120,
+      "stops": [
+        {
+          "name": "Kempegowda International Airport",
+          "lat": 13.2012,
+          "lng": 77.7088,
+          "isTerminus": true,
+          "fare": 0
+        },
+        {
+          "name": "Beguru",
+          "lat": 12.8747,
+          "lng": 77.6227,
+          "isTerminus": false,
+          "fare": 170
+        },
+        {
+          "name": "Hunusuru",
+          "lat": 12.9716,
+          "lng": 77.5946,
+          "isTerminus": false,
+          "fare": 170
+        },
+        {
+          "name": "KIADB Circle",
+          "lat": 13.17475009,
+          "lng": 77.71702498,
+          "isTerminus": false,
+          "fare": 170
+        },
+        {
+          "name": "Singahalli",
+          "lat": 13.16150624,
+          "lng": 77.72393704,
+          "isTerminus": false,
+          "fare": 170
+        },
+        {
+          "name": "Budigere",
+          "lat": 13.13512677,
+          "lng": 77.74767056,
+          "isTerminus": false,
+          "fare": 180
+        },
+        {
+          "name": "Manduru",
+          "lat": 13.08184007,
+          "lng": 77.73833245,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Katamanalluru Gate",
+          "lat": 13.18697739,
+          "lng": 77.76039882,
+          "isTerminus": false,
+          "fare": 265
+        },
+        {
+          "name": "Kadugodi",
+          "lat": 12.99562685,
+          "lng": 77.75853309,
+          "isTerminus": false,
+          "fare": 285
+        },
+        {
+          "name": "Hope Farm",
+          "lat": 12.98299939,
+          "lng": 77.75226854,
+          "isTerminus": false,
+          "fare": 285
+        },
+        {
+          "name": "Varthur kodi",
+          "lat": 12.95706417,
+          "lng": 77.74563342,
+          "isTerminus": false,
+          "fare": 285
+        },
+        {
+          "name": "Siddapura",
+          "lat": 12.9554,
+          "lng": 77.6599,
+          "isTerminus": false,
+          "fare": 285
+        },
+        {
+          "name": "Kundalahalli Gate",
+          "lat": 12.9678,
+          "lng": 77.7127,
+          "isTerminus": false,
+          "fare": 285
+        },
+        {
+          "name": "AECS Layout Cross",
+          "lat": 12.9674,
+          "lng": 77.7056,
+          "isTerminus": false,
+          "fare": 285
+        },
+        {
+          "name": "Whitefield TTMC",
+          "lat": 12.9772,
+          "lng": 77.7268,
+          "isTerminus": false,
+          "fare": 285
+        }
+      ],
+      "toAirport": [],
+      "fromAirport": [
+        "00:40",
+        "21:15",
+        "22:00",
+        "22:40",
+        "23:45"
+      ]
+    },
+    {
+      "id": "KIA-15",
+      "terminus": "WHITE FIELD TTMC (BACK GATE)",
+      "journeyTimeMinutes": 105,
+      "stops": [
+        {
+          "name": "Kempegowda International Airport",
+          "lat": 13.2012,
+          "lng": 77.7088,
+          "isTerminus": true,
+          "fare": 0
+        },
+        {
+          "name": "Beguru",
+          "lat": 12.8747,
+          "lng": 77.6227,
+          "isTerminus": false,
+          "fare": 170
+        },
+        {
+          "name": "Hunusuru",
+          "lat": 12.9716,
+          "lng": 77.5946,
+          "isTerminus": false,
+          "fare": 170
+        },
+        {
+          "name": "KIADB Circle",
+          "lat": 13.17475009,
+          "lng": 77.71702498,
+          "isTerminus": false,
+          "fare": 170
+        },
+        {
+          "name": "Singahalli",
+          "lat": 13.16150624,
+          "lng": 77.72393704,
+          "isTerminus": false,
+          "fare": 170
+        },
+        {
+          "name": "Budigere",
+          "lat": 13.13512677,
+          "lng": 77.74767056,
+          "isTerminus": false,
+          "fare": 180
+        },
+        {
+          "name": "Manduru",
+          "lat": 13.08184007,
+          "lng": 77.73833245,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Katamanalluru Gate",
+          "lat": 13.18697739,
+          "lng": 77.76039882,
+          "isTerminus": false,
+          "fare": 265
+        },
+        {
+          "name": "Kadugodi",
+          "lat": 12.99562685,
+          "lng": 77.75853309,
+          "isTerminus": false,
+          "fare": 285
+        },
+        {
+          "name": "Hope Farm",
+          "lat": 12.98299939,
+          "lng": 77.75226854,
+          "isTerminus": false,
+          "fare": 285
+        },
+        {
+          "name": "ITPL",
+          "lat": 12.9875598,
+          "lng": 77.73696825,
+          "isTerminus": false,
+          "fare": 285
+        },
+        {
+          "name": "Whitefield TTMC",
+          "lat": 12.9772,
+          "lng": 77.7268,
+          "isTerminus": false,
+          "fare": 285
+        }
+      ],
+      "toAirport": [
+        "04:15",
+        "05:15",
+        "06:15",
+        "07:15",
+        "07:40",
+        "08:20",
+        "09:20",
+        "10:20",
+        "10:45",
+        "11:15",
+        "11:45",
+        "14:40",
+        "15:10",
+        "15:30",
+        "16:30",
+        "17:25",
+        "18:15",
+        "18:40",
+        "19:55",
+        "20:50",
+        "21:50",
+        "22:40"
+      ],
+      "fromAirport": [
+        "06:15",
+        "07:10",
+        "08:15",
+        "09:15",
+        "09:40",
+        "10:15",
+        "11:15",
+        "12:20",
+        "12:50",
+        "13:15",
+        "14:10",
+        "16:45",
+        "17:15",
+        "18:00",
+        "18:45",
+        "19:45",
+        "20:40"
+      ]
+    },
+    {
+      "id": "KIA-14A",
+      "terminus": "Jigani APC Circle",
+      "journeyTimeMinutes": 135,
+      "stops": [
+        {
+          "name": "Kempegowda International Airport",
+          "lat": 13.2012,
+          "lng": 77.7088,
+          "isTerminus": true,
+          "fare": 0
+        },
+        {
+          "name": "Hebbal",
+          "lat": 13.0359,
+          "lng": 77.5971,
+          "isTerminus": false,
+          "fare": 250
+        },
+        {
+          "name": "Mekhri Circle",
+          "lat": 13.01450799,
+          "lng": 77.58262879,
+          "isTerminus": false,
+          "fare": 250
+        },
+        {
+          "name": "Shanthinagar TTMC",
+          "lat": 12.9535,
+          "lng": 77.5954,
+          "isTerminus": false,
+          "fare": 250
+        },
+        {
+          "name": "Billekahalli",
+          "lat": 12.9022,
+          "lng": 77.6019,
+          "isTerminus": false,
+          "fare": 250
+        },
+        {
+          "name": "Gottigere",
+          "lat": 12.85519215,
+          "lng": 77.58863032,
+          "isTerminus": false,
+          "fare": 250
+        },
+        {
+          "name": "Bannerughatta Circle",
+          "lat": 12.81326002,
+          "lng": 77.58136168,
+          "isTerminus": false,
+          "fare": 250
+        },
+        {
+          "name": "Jigani APC Circle",
+          "lat": 12.7844,
+          "lng": 77.6231,
+          "isTerminus": true,
+          "fare": 250
+        }
+      ],
+      "toAirport": [
+        "05:00",
+        "06:00",
+        "07:00",
+        "08:00",
+        "09:00",
+        "10:00",
+        "16:15",
+        "17:15",
+        "18:15",
+        "19:15",
+        "20:15",
+        "21:15"
+      ],
+      "fromAirport": [
+        "01:40",
+        "02:45",
+        "04:00",
+        "05:00",
+        "06:00",
+        "07:10",
+        "13:20",
+        "14:35",
+        "15:40",
+        "16:40",
+        "17:30",
+        "18:40"
+      ]
+    },
+    {
+      "id": "KIA-14",
+      "terminus": "Royal Meenakshi Mall",
+      "journeyTimeMinutes": 110,
+      "stops": [
+        {
+          "name": "Kempegowda International Airport",
+          "lat": 13.2012,
+          "lng": 77.7088,
+          "isTerminus": true,
+          "fare": 0
+        },
+        {
+          "name": "Hebbala",
+          "lat": 13.0359,
+          "lng": 77.5971,
+          "isTerminus": false,
+          "fare": 180
+        },
+        {
+          "name": "Mekhri Circle",
+          "lat": 13.01450799,
+          "lng": 77.58262879,
+          "isTerminus": false,
+          "fare": 205
+        },
+        {
+          "name": "Raj Mahal Guttahalli",
+          "lat": 12.9996,
+          "lng": 77.5818,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Cubbon Metro",
+          "lat": 12.9806,
+          "lng": 77.5976,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Shanthinagara TTMC",
+          "lat": 12.95459258,
+          "lng": 77.5925092,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Bengaluru Dairy Circle",
+          "lat": 12.93419724,
+          "lng": 77.60066003,
+          "isTerminus": false,
+          "fare": 250
+        },
+        {
+          "name": "Jayadeva Hospital",
+          "lat": 12.91681903,
+          "lng": 77.60027781,
+          "isTerminus": false,
+          "fare": 290
+        },
+        {
+          "name": "Hulimavu Gate",
+          "lat": 12.88075471,
+          "lng": 77.59590891,
+          "isTerminus": false,
+          "fare": 290
+        },
+        {
+          "name": "Royal Meenakshi Mall",
+          "lat": 12.8931,
+          "lng": 77.5969,
+          "isTerminus": true,
+          "fare": 290
+        }
+      ],
+      "toAirport": [
+        "01:15",
+        "02:30",
+        "03:00",
+        "03:30",
+        "04:00",
+        "04:30",
+        "05:00",
+        "05:30",
+        "05:50",
+        "06:10",
+        "06:30",
+        "06:50",
+        "07:10",
+        "07:30",
+        "07:50",
+        "08:10",
+        "08:30",
+        "08:50",
+        "09:15",
+        "09:40",
+        "10:30",
+        "10:50",
+        "11:15",
+        "11:40",
+        "12:00",
+        "12:20",
+        "12:40",
+        "13:20",
+        "14:00",
+        "14:30",
+        "14:50",
+        "15:20",
+        "15:40",
+        "16:10",
+        "16:30",
+        "16:50",
+        "17:10",
+        "17:30",
+        "17:50",
+        "18:20",
+        "18:40",
+        "19:00",
+        "19:30",
+        "20:00",
+        "20:30",
+        "20:50",
+        "21:10",
+        "21:35",
+        "22:00",
+        "22:20",
+        "22:50",
+        "23:45"
+      ],
+      "fromAirport": [
+        "00:45",
+        "01:15",
+        "02:15",
+        "03:15",
+        "03:45",
+        "04:15",
+        "04:45",
+        "05:20",
+        "05:45",
+        "06:40",
+        "07:00",
+        "07:20",
+        "07:40",
+        "08:00",
+        "08:20",
+        "08:40",
+        "09:20",
+        "09:40",
+        "10:00",
+        "10:20",
+        "10:50",
+        "11:20",
+        "11:55",
+        "12:40",
+        "13:10",
+        "13:40",
+        "14:25",
+        "14:55",
+        "15:30",
+        "16:05",
+        "16:30",
+        "16:50",
+        "17:15",
+        "17:40",
+        "18:00",
+        "18:20",
+        "18:50",
+        "19:10",
+        "19:30",
+        "19:50",
+        "20:00",
+        "20:30",
+        "20:50",
+        "21:15",
+        "21:50",
+        "22:30",
+        "23:00",
+        "23:20",
+        "23:55"
+      ]
+    },
+    {
+      "id": "KIA-10",
+      "terminus": "Mysore Road Bus Station",
+      "journeyTimeMinutes": 105,
+      "stops": [
+        {
+          "name": "Kempegowda International Airport",
+          "lat": 13.2012,
+          "lng": 77.7088,
+          "isTerminus": true,
+          "fare": 0
+        },
+        {
+          "name": "Hebbala",
+          "lat": 13.0359,
+          "lng": 77.5971,
+          "isTerminus": false,
+          "fare": 180
+        },
+        {
+          "name": "Mekhri Circle",
+          "lat": 13.01450799,
+          "lng": 77.58262879,
+          "isTerminus": false,
+          "fare": 205
+        },
+        {
+          "name": "CPRI",
+          "lat": 13.01479223,
+          "lng": 77.57487228,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Yeshwanthapura TTMC",
+          "lat": 13.01696175,
+          "lng": 77.55651892,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Iskcon",
+          "lat": 13.01175164,
+          "lng": 77.55180104,
+          "isTerminus": false,
+          "fare": 255
+        },
+        {
+          "name": "Rajajinagara 1st Block",
+          "lat": 13.00381032,
+          "lng": 77.55000239,
+          "isTerminus": false,
+          "fare": 255
+        },
+        {
+          "name": "Magadi Road Tollgate",
+          "lat": 12.95522407,
+          "lng": 77.22712513,
+          "isTerminus": false,
+          "fare": 255
+        },
+        {
+          "name": "Vijayanagara",
+          "lat": 12.97183024,
+          "lng": 77.53791923,
+          "isTerminus": false,
+          "fare": 255
+        },
+        {
+          "name": "Mysore Road Bus Station (MCTC)",
+          "lat": 12.9634,
+          "lng": 77.5355,
+          "isTerminus": false,
+          "fare": 255
+        }
+      ],
+      "toAirport": [
+        "00:05",
+        "01:00",
+        "04:00",
+        "05:00",
+        "05:30",
+        "06:00",
+        "06:30",
+        "07:00",
+        "07:30",
+        "08:00",
+        "08:30",
+        "09:00",
+        "09:30",
+        "10:00",
+        "10:30",
+        "11:00",
+        "11:30",
+        "12:30",
+        "13:00",
+        "13:30",
+        "14:00",
+        "14:45",
+        "15:15",
+        "15:45",
+        "16:15",
+        "16:45",
+        "17:15",
+        "17:45",
+        "18:15",
+        "18:45",
+        "19:05",
+        "19:30",
+        "20:00",
+        "20:30",
+        "21:00",
+        "21:30",
+        "22:00",
+        "22:30",
+        "23:00"
+      ],
+      "fromAirport": [
+        "00:05",
+        "00:35",
+        "01:05",
+        "02:00",
+        "03:00",
+        "04:00",
+        "05:00",
+        "05:30",
+        "06:00",
+        "07:00",
+        "07:30",
+        "08:00",
+        "08:30",
+        "09:00",
+        "09:30",
+        "10:00",
+        "10:30",
+        "11:00",
+        "11:30",
+        "12:00",
+        "12:30",
+        "13:00",
+        "13:30",
+        "14:15",
+        "15:00",
+        "15:30",
+        "16:00",
+        "16:30",
+        "17:00",
+        "17:30",
+        "18:00",
+        "18:30",
+        "19:00",
+        "19:30",
+        "20:00",
+        "20:30",
+        "21:00",
+        "21:20",
+        "21:40",
+        "22:00",
+        "22:30",
+        "23:00",
+        "23:30"
+      ]
+    },
+    {
+      "id": "KIA-9H",
+      "terminus": "Hebbala",
+      "journeyTimeMinutes": 60,
+      "stops": [
+        {
+          "name": "Kempegowda International Airport",
+          "lat": 13.2012,
+          "lng": 77.7088,
+          "isTerminus": true,
+          "fare": 0
+        },
+        {
+          "name": "Hunasamaranahalli",
+          "lat": 13.1256,
+          "lng": 77.6186,
+          "isTerminus": false,
+          "fare": 125
+        },
+        {
+          "name": "Kogilu Cross",
+          "lat": 13.1032925,
+          "lng": 77.60054939,
+          "isTerminus": false,
+          "fare": 150
+        },
+        {
+          "name": "Kodigehalli Gate",
+          "lat": 13.00355657,
+          "lng": 77.72326853,
+          "isTerminus": false,
+          "fare": 165
+        },
+        {
+          "name": "Hebbala",
+          "lat": 13.0359,
+          "lng": 77.5971,
+          "isTerminus": true,
+          "fare": 180
+        }
+      ],
+      "toAirport": [
+        "08:55",
+        "11:05",
+        "12:45",
+        "13:25",
+        "14:05",
+        "14:50",
+        "14:55",
+        "15:15",
+        "15:30",
+        "16:45",
+        "17:05",
+        "17:30",
+        "18:05",
+        "19:10",
+        "19:50",
+        "20:50",
+        "21:35"
+      ],
+      "fromAirport": [
+        "06:05",
+        "06:25",
+        "07:55",
+        "08:05",
+        "10:05",
+        "11:25",
+        "11:35",
+        "12:25",
+        "12:55",
+        "14:15",
+        "14:25"
+      ]
+    },
+    {
+      "id": "KIA-9",
+      "terminus": "Kempegowda Bus Station",
+      "journeyTimeMinutes": 60,
+      "stops": [
+        {
+          "name": "Kempegowda International Airport",
+          "lat": 13.2012,
+          "lng": 77.7088,
+          "isTerminus": true,
+          "fare": 0
+        },
+        {
+          "name": "Hunasamaranahalli",
+          "lat": 13.1256,
+          "lng": 77.6186,
+          "isTerminus": false,
+          "fare": 100
+        },
+        {
+          "name": "Kogilu Cross",
+          "lat": 13.1032925,
+          "lng": 77.60054939,
+          "isTerminus": false,
+          "fare": 123.81
+        },
+        {
+          "name": "Kodigehalli Gate",
+          "lat": 13.00355657,
+          "lng": 77.72326853,
+          "isTerminus": false,
+          "fare": 138.1
+        },
+        {
+          "name": "Hebbala",
+          "lat": 13.0359,
+          "lng": 77.5971,
+          "isTerminus": false,
+          "fare": 152.38
+        },
+        {
+          "name": "Mekhri Circle",
+          "lat": 13.01450799,
+          "lng": 77.58262879,
+          "isTerminus": false,
+          "fare": 176.19
+        },
+        {
+          "name": "Raj Mahal Guttahalli",
+          "lat": 12.9996,
+          "lng": 77.5818,
+          "isTerminus": false,
+          "fare": 214.29
+        },
+        {
+          "name": "Kempegowda Bus Station",
+          "lat": 12.9767,
+          "lng": 77.5713,
+          "isTerminus": true,
+          "fare": 214.29
+        }
+      ],
+      "toAirport": [
+        "00:05",
+        "00:20",
+        "00:40",
+        "01:00",
+        "01:20",
+        "01:40",
+        "02:00",
+        "02:20",
+        "02:40",
+        "03:00",
+        "03:20",
+        "03:40",
+        "04:00",
+        "04:20",
+        "04:40",
+        "05:00",
+        "05:20",
+        "05:40",
+        "06:00",
+        "06:15",
+        "06:30",
+        "06:45",
+        "07:00",
+        "07:15",
+        "07:30",
+        "07:45",
+        "07:55",
+        "08:05",
+        "08:15",
+        "08:30",
+        "08:45",
+        "09:00",
+        "09:15",
+        "09:30",
+        "09:40",
+        "09:50",
+        "10:00",
+        "10:10",
+        "10:20",
+        "10:30",
+        "10:45",
+        "11:00",
+        "11:15",
+        "11:30",
+        "11:40",
+        "11:50",
+        "12:20",
+        "12:30",
+        "12:55",
+        "13:05",
+        "13:15",
+        "13:25",
+        "13:35",
+        "13:50",
+        "14:00",
+        "14:10",
+        "14:20",
+        "14:30",
+        "14:40",
+        "14:50",
+        "15:00",
+        "15:10",
+        "15:20",
+        "15:30",
+        "15:40",
+        "15:50",
+        "16:00",
+        "16:10",
+        "16:20",
+        "16:30",
+        "16:40",
+        "16:50",
+        "17:00",
+        "17:10",
+        "17:20",
+        "17:30",
+        "17:40",
+        "17:50",
+        "18:00",
+        "18:10",
+        "18:20",
+        "18:30",
+        "18:40",
+        "18:50",
+        "19:00",
+        "19:10",
+        "19:20",
+        "19:30",
+        "19:40",
+        "19:50",
+        "20:00",
+        "20:15",
+        "20:30",
+        "20:45",
+        "21:00",
+        "21:10",
+        "21:20",
+        "21:30",
+        "21:45",
+        "22:00",
+        "22:10",
+        "22:20",
+        "22:30",
+        "22:40",
+        "22:50",
+        "23:05",
+        "23:20",
+        "23:40"
+      ],
+      "fromAirport": [
+        "00:10",
+        "00:25",
+        "00:40",
+        "00:55",
+        "01:10",
+        "01:30",
+        "01:50",
+        "02:10",
+        "02:30",
+        "02:50",
+        "03:10",
+        "03:30",
+        "03:50",
+        "04:10",
+        "04:30",
+        "04:45",
+        "05:00",
+        "05:20",
+        "05:35",
+        "05:50",
+        "06:05",
+        "06:15",
+        "06:30",
+        "06:40",
+        "06:50",
+        "07:00",
+        "07:10",
+        "07:20",
+        "07:30",
+        "07:40",
+        "07:55",
+        "08:10",
+        "08:20",
+        "08:30",
+        "08:40",
+        "08:50",
+        "09:00",
+        "09:10",
+        "09:20",
+        "09:30",
+        "09:40",
+        "09:50",
+        "10:00",
+        "10:10",
+        "10:20",
+        "10:30",
+        "10:40",
+        "10:50",
+        "11:00",
+        "11:10",
+        "11:20",
+        "11:30",
+        "11:40",
+        "11:50",
+        "12:00",
+        "12:10",
+        "12:20",
+        "12:30",
+        "12:40",
+        "12:55",
+        "13:05",
+        "13:20",
+        "13:30",
+        "13:40",
+        "13:50",
+        "14:00",
+        "14:10",
+        "14:25",
+        "14:40",
+        "14:55",
+        "15:10",
+        "15:25",
+        "15:40",
+        "15:55",
+        "16:10",
+        "16:25",
+        "16:40",
+        "16:55",
+        "17:10",
+        "17:25",
+        "17:40",
+        "17:55",
+        "18:10",
+        "18:25",
+        "18:40",
+        "18:55",
+        "19:10",
+        "19:20",
+        "19:35",
+        "19:50",
+        "20:00",
+        "20:10",
+        "20:20",
+        "20:30",
+        "20:45",
+        "21:00",
+        "21:10",
+        "21:20",
+        "21:30",
+        "21:40",
+        "21:50",
+        "22:05",
+        "22:20",
+        "22:35",
+        "22:50",
+        "23:05",
+        "23:20",
+        "23:30",
+        "23:40"
+      ]
+    },
+    {
+      "id": "KIA-8H",
+      "terminus": "Attibele",
+      "journeyTimeMinutes": 180,
+      "stops": [
+        {
+          "name": "Kempegowda International Airport",
+          "lat": 13.2012,
+          "lng": 77.7088,
+          "isTerminus": true,
+          "fare": 0
+        },
+        {
+          "name": "Hebbala",
+          "lat": 13.0359,
+          "lng": 77.5971,
+          "isTerminus": false,
+          "fare": 250
+        },
+        {
+          "name": "Tin factory",
+          "lat": 12.998,
+          "lng": 77.6756,
+          "isTerminus": false,
+          "fare": 250
+        },
+        {
+          "name": "Marathahalli Bridge",
+          "lat": 12.95693481,
+          "lng": 77.70070592,
+          "isTerminus": false,
+          "fare": 250
+        },
+        {
+          "name": "Central Silk Board",
+          "lat": 12.9176,
+          "lng": 77.6225,
+          "isTerminus": false,
+          "fare": 250
+        },
+        {
+          "name": "Doddakannalli",
+          "lat": 12.90727521,
+          "lng": 77.69561358,
+          "isTerminus": false,
+          "fare": 250
+        },
+        {
+          "name": "Kodati gate",
+          "lat": 12.8943,
+          "lng": 77.6974,
+          "isTerminus": false,
+          "fare": 250
+        },
+        {
+          "name": "Sarjapura",
+          "lat": 12.8617,
+          "lng": 77.7852,
+          "isTerminus": false,
+          "fare": 250
+        },
+        {
+          "name": "Medahlli",
+          "lat": 13.0125,
+          "lng": 77.7161,
+          "isTerminus": false,
+          "fare": 250
+        },
+        {
+          "name": "Bidarguppe",
+          "lat": 12.7869,
+          "lng": 77.7886,
+          "isTerminus": false,
+          "fare": 250
+        },
+        {
+          "name": "Attibele",
+          "lat": 12.7788,
+          "lng": 77.7709,
+          "isTerminus": true,
+          "fare": 250
+        }
+      ],
+      "toAirport": [
+        "05:30",
+        "06:30",
+        "07:30",
+        "08:40",
+        "09:30",
+        "10:30",
+        "17:30",
+        "18:10",
+        "19:15",
+        "20:15",
+        "21:40",
+        "22:30"
+      ],
+      "fromAirport": [
+        "02:00",
+        "03:00",
+        "03:50",
+        "05:00",
+        "06:00",
+        "07:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:30"
+      ]
+    },
+    {
+      "id": "KIA-8EW",
+      "terminus": "Electronic City Wipro Gate",
+      "journeyTimeMinutes": 0,
+      "stops": [
+        {
+          "name": "Kempegowda International Airport",
+          "lat": 13.2012,
+          "lng": 77.7088,
+          "isTerminus": true,
+          "fare": 0
+        },
+        {
+          "name": "Hebbala",
+          "lat": 13.0359,
+          "lng": 77.5971,
+          "isTerminus": false,
+          "fare": 250
+        },
+        {
+          "name": "Tinfactory",
+          "lat": 12.9987,
+          "lng": 77.6731,
+          "isTerminus": false,
+          "fare": 250
+        },
+        {
+          "name": "Marathahalli Bridge",
+          "lat": 12.95693481,
+          "lng": 77.70070592,
+          "isTerminus": false,
+          "fare": 250
+        },
+        {
+          "name": "Central Silk Board",
+          "lat": 12.9176,
+          "lng": 77.6225,
+          "isTerminus": false,
+          "fare": 250
+        },
+        {
+          "name": "EIC",
+          "lat": 13.01996989,
+          "lng": 77.52069332,
+          "isTerminus": false,
+          "fare": 250
+        },
+        {
+          "name": "Electronic City Wipro Gate",
+          "lat": 12.8456,
+          "lng": 77.6603,
+          "isTerminus": true,
+          "fare": 250
+        }
+      ],
+      "toAirport": [],
+      "fromAirport": [
+        "00:15",
+        "00:35",
+        "02:40",
+        "04:20"
+      ]
+    },
+    {
+      "id": "KIA-8E",
+      "terminus": "Electronic City Wipro Gate (BACK GATE)",
+      "journeyTimeMinutes": 130,
+      "stops": [
+        {
+          "name": "Kempegowda International Airport",
+          "lat": 13.2012,
+          "lng": 77.7088,
+          "isTerminus": true,
+          "fare": 0
+        },
+        {
+          "name": "Beguru",
+          "lat": 12.8747,
+          "lng": 77.6227,
+          "isTerminus": false,
+          "fare": 138.09
+        },
+        {
+          "name": "KIADB Hoovinayakanahalli Gate",
+          "lat": 13.15607273,
+          "lng": 77.68121203,
+          "isTerminus": false,
+          "fare": 138.09
+        },
+        {
+          "name": "Bagaluru",
+          "lat": 13.136,
+          "lng": 77.669,
+          "isTerminus": false,
+          "fare": 138.09
+        },
+        {
+          "name": "Kannuru",
+          "lat": 13.09316282,
+          "lng": 77.65422038,
+          "isTerminus": false,
+          "fare": 152.38
+        },
+        {
+          "name": "Hennur Cross",
+          "lat": 13.02948992,
+          "lng": 77.63128348,
+          "isTerminus": false,
+          "fare": 209.52
+        },
+        {
+          "name": "Tin Factory",
+          "lat": 12.998,
+          "lng": 77.6756,
+          "isTerminus": false,
+          "fare": 209.52
+        },
+        {
+          "name": "Marathahalli Bridge",
+          "lat": 12.95693481,
+          "lng": 77.70070592,
+          "isTerminus": false,
+          "fare": 228.57
+        },
+        {
+          "name": "Kadubisanahalli (J P Morgan)",
+          "lat": 12.9392,
+          "lng": 77.6953,
+          "isTerminus": false,
+          "fare": 228.57
+        },
+        {
+          "name": "Eco Space",
+          "lat": 12.9277,
+          "lng": 77.6809,
+          "isTerminus": false,
+          "fare": 228.57
+        },
+        {
+          "name": "HSR Layout 14th Main",
+          "lat": 12.9128,
+          "lng": 77.6356,
+          "isTerminus": false,
+          "fare": 228.57
+        },
+        {
+          "name": "Central Silk Board",
+          "lat": 12.9176,
+          "lng": 77.6225,
+          "isTerminus": false,
+          "fare": 271.43
+        },
+        {
+          "name": "Hosa Road",
+          "lat": 12.8724,
+          "lng": 77.6423,
+          "isTerminus": false,
+          "fare": 271.43
+        },
+        {
+          "name": "Electronic City",
+          "lat": 12.84816925,
+          "lng": 77.6707112,
+          "isTerminus": false,
+          "fare": 304.76
+        },
+        {
+          "name": "Infosys Parking Lot",
+          "lat": 12.8504,
+          "lng": 77.6591,
+          "isTerminus": false,
+          "fare": 304.76
+        },
+        {
+          "name": "Electronic City Wipro",
+          "lat": 12.8456,
+          "lng": 77.6603,
+          "isTerminus": false,
+          "fare": 309.52
+        }
+      ],
+      "toAirport": [
+        "02:40",
+        "03:20",
+        "05:20",
+        "07:10",
+        "10:00",
+        "11:10",
+        "13:20",
+        "14:20",
+        "15:40",
+        "16:40",
+        "19:20",
+        "20:50"
+      ],
+      "fromAirport": [
+        "05:40",
+        "05:50",
+        "07:50",
+        "10:20",
+        "12:50",
+        "13:50",
+        "16:10",
+        "18:20"
+      ]
+    },
+    {
+      "id": "KIA-8D",
+      "terminus": "Sarjapura Bus station",
+      "journeyTimeMinutes": 120,
+      "stops": [
+        {
+          "name": "Kempegowda International Airport",
+          "lat": 13.2012,
+          "lng": 77.7088,
+          "isTerminus": true,
+          "fare": 0
+        },
+        {
+          "name": "Beguru",
+          "lat": 12.8747,
+          "lng": 77.6227,
+          "isTerminus": false,
+          "fare": 138.09
+        },
+        {
+          "name": "KIADB Hoovinayakanahalli Gate",
+          "lat": 13.15607273,
+          "lng": 77.68121203,
+          "isTerminus": false,
+          "fare": 138.09
+        },
+        {
+          "name": "Bagaluru",
+          "lat": 13.136,
+          "lng": 77.669,
+          "isTerminus": false,
+          "fare": 138.09
+        },
+        {
+          "name": "Kannuru",
+          "lat": 13.09316282,
+          "lng": 77.65422038,
+          "isTerminus": false,
+          "fare": 152.38
+        },
+        {
+          "name": "Hennur Cross",
+          "lat": 13.02948992,
+          "lng": 77.63128348,
+          "isTerminus": false,
+          "fare": 209.52
+        },
+        {
+          "name": "Tin Factory",
+          "lat": 12.998,
+          "lng": 77.6756,
+          "isTerminus": false,
+          "fare": 209.52
+        },
+        {
+          "name": "Marathahalli Bridge",
+          "lat": 12.95693481,
+          "lng": 77.70070592,
+          "isTerminus": false,
+          "fare": 228.57
+        },
+        {
+          "name": "Kadubisanahalli (J P Morgan)",
+          "lat": 12.9392,
+          "lng": 77.6953,
+          "isTerminus": false,
+          "fare": 228.57
+        },
+        {
+          "name": "Eco Space",
+          "lat": 12.9277,
+          "lng": 77.6809,
+          "isTerminus": false,
+          "fare": 228.57
+        },
+        {
+          "name": "HSR Layout 14th Main",
+          "lat": 12.9128,
+          "lng": 77.6356,
+          "isTerminus": false,
+          "fare": 228.57
+        },
+        {
+          "name": "Central Silk Board",
+          "lat": 12.9176,
+          "lng": 77.6225,
+          "isTerminus": false,
+          "fare": 271.43
+        },
+        {
+          "name": "Hosa Road",
+          "lat": 12.8724,
+          "lng": 77.6423,
+          "isTerminus": false,
+          "fare": 271.43
+        },
+        {
+          "name": "Electronic City",
+          "lat": 12.84816925,
+          "lng": 77.6707112,
+          "isTerminus": false,
+          "fare": 304.76
+        },
+        {
+          "name": "Infosys Parking Lot",
+          "lat": 12.8504,
+          "lng": 77.6591,
+          "isTerminus": false,
+          "fare": 304.76
+        },
+        {
+          "name": "Electronic City Wipro",
+          "lat": 12.8456,
+          "lng": 77.6603,
+          "isTerminus": false,
+          "fare": 309.52
+        }
+      ],
+      "toAirport": [
+        "07:00",
+        "08:00",
+        "09:00",
+        "09:50",
+        "19:50",
+        "22:10",
+        "23:25"
+      ],
+      "fromAirport": [
+        "03:30",
+        "05:30",
+        "06:30",
+        "07:30",
+        "17:30",
+        "19:10",
+        "20:50"
+      ]
+    },
+    {
+      "id": "KIA-8C",
+      "terminus": "Chandapura",
+      "journeyTimeMinutes": 180,
+      "stops": [
+        {
+          "name": "Kempegowda International Airport",
+          "lat": 13.2012,
+          "lng": 77.7088,
+          "isTerminus": true,
+          "fare": 0
+        },
+        {
+          "name": "Hebbala",
+          "lat": 13.0359,
+          "lng": 77.5971,
+          "isTerminus": false,
+          "fare": 180
+        },
+        {
+          "name": "Manyatha Tech Park",
+          "lat": 13.0451,
+          "lng": 77.6204,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Jn of Nagawara",
+          "lat": 13.0423,
+          "lng": 77.6247,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Tin Factory",
+          "lat": 12.998,
+          "lng": 77.6756,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Marathahalli Bridge",
+          "lat": 12.95693481,
+          "lng": 77.70070592,
+          "isTerminus": false,
+          "fare": 265
+        },
+        {
+          "name": "Kadubisanahalli (J P Morgan)",
+          "lat": 12.9392,
+          "lng": 77.6953,
+          "isTerminus": false,
+          "fare": 265
+        },
+        {
+          "name": "Eco Space",
+          "lat": 12.9277,
+          "lng": 77.6809,
+          "isTerminus": false,
+          "fare": 265
+        },
+        {
+          "name": "HSR Layout 14th Main",
+          "lat": 12.9128,
+          "lng": 77.6356,
+          "isTerminus": false,
+          "fare": 265
+        },
+        {
+          "name": "Central Silk Board",
+          "lat": 12.9176,
+          "lng": 77.6225,
+          "isTerminus": false,
+          "fare": 305
+        },
+        {
+          "name": "Hosa Road",
+          "lat": 12.8724,
+          "lng": 77.6423,
+          "isTerminus": false,
+          "fare": 305
+        },
+        {
+          "name": "Electronic City",
+          "lat": 12.84816925,
+          "lng": 77.6707112,
+          "isTerminus": false,
+          "fare": 335
+        },
+        {
+          "name": "Chandapura",
+          "lat": 12.80265629,
+          "lng": 77.70469487,
+          "isTerminus": true,
+          "fare": 355
+        }
+      ],
+      "toAirport": [
+        "03:10",
+        "04:40",
+        "05:45",
+        "07:40",
+        "08:10",
+        "08:50",
+        "15:10",
+        "16:10",
+        "17:50",
+        "19:05",
+        "20:05",
+        "20:40"
+      ],
+      "fromAirport": [
+        "00:05",
+        "01:00",
+        "02:30",
+        "03:20",
+        "04:00",
+        "04:40",
+        "12:05",
+        "12:40",
+        "14:10",
+        "15:40",
+        "16:40",
+        "17:20"
+      ]
+    },
+    {
+      "id": "KIA-8A",
+      "terminus": "Kuvempunagar",
+      "journeyTimeMinutes": 120,
+      "stops": [
+        {
+          "name": "Kempegowda International Airport",
+          "lat": 13.2012,
+          "lng": 77.7088,
+          "isTerminus": true,
+          "fare": 0
+        },
+        {
+          "name": "Hebbala",
+          "lat": 13.0359,
+          "lng": 77.5971,
+          "isTerminus": false,
+          "fare": 152.38
+        },
+        {
+          "name": "Manyatha Tech Park",
+          "lat": 13.0451,
+          "lng": 77.6204,
+          "isTerminus": false,
+          "fare": 209.52
+        },
+        {
+          "name": "Jn of Nagawara",
+          "lat": 13.0423,
+          "lng": 77.6247,
+          "isTerminus": false,
+          "fare": 209.52
+        },
+        {
+          "name": "Tin Factory",
+          "lat": 12.998,
+          "lng": 77.6756,
+          "isTerminus": false,
+          "fare": 209.52
+        },
+        {
+          "name": "Marathahalli Bridge",
+          "lat": 12.95693481,
+          "lng": 77.70070592,
+          "isTerminus": false,
+          "fare": 233.33
+        },
+        {
+          "name": "Kadubisanahalli (J P Morgan)",
+          "lat": 12.9392,
+          "lng": 77.6953,
+          "isTerminus": false,
+          "fare": 233.33
+        },
+        {
+          "name": "Eco Space",
+          "lat": 12.9277,
+          "lng": 77.6809,
+          "isTerminus": false,
+          "fare": 233.33
+        },
+        {
+          "name": "HSR Layout 14th Main",
+          "lat": 12.9128,
+          "lng": 77.6356,
+          "isTerminus": false,
+          "fare": 233.33
+        },
+        {
+          "name": "Central Silk Board",
+          "lat": 12.9176,
+          "lng": 77.6225,
+          "isTerminus": false,
+          "fare": 271.43
+        },
+        {
+          "name": "BTM Layout",
+          "lat": 12.91654518,
+          "lng": 77.61534176,
+          "isTerminus": false,
+          "fare": 271.43
+        }
+      ],
+      "toAirport": [
+        "00:25",
+        "01:10",
+        "03:30",
+        "04:00",
+        "04:10",
+        "04:55",
+        "07:50",
+        "09:10",
+        "10:50",
+        "11:20",
+        "11:50",
+        "17:10",
+        "17:55",
+        "18:40",
+        "19:00",
+        "19:10",
+        "21:50",
+        "23:40"
+      ],
+      "fromAirport": [
+        "01:10",
+        "01:40",
+        "01:50",
+        "02:20",
+        "03:10",
+        "04:10",
+        "05:20",
+        "06:10",
+        "08:20",
+        "13:40",
+        "14:40",
+        "15:50",
+        "16:20",
+        "16:50",
+        "19:40",
+        "20:20",
+        "21:10",
+        "21:30",
+        "22:00",
+        "22:10",
+        "22:50"
+      ]
+    },
+    {
+      "id": "KIA-8",
+      "terminus": "Electronic City",
+      "journeyTimeMinutes": 120,
+      "stops": [
+        {
+          "name": "Kempegowda International Airport",
+          "lat": 13.2012,
+          "lng": 77.7088,
+          "isTerminus": true,
+          "fare": 0
+        },
+        {
+          "name": "Hebbala",
+          "lat": 13.0359,
+          "lng": 77.5971,
+          "isTerminus": false,
+          "fare": 180
+        },
+        {
+          "name": "Manyatha Tech Park",
+          "lat": 13.0451,
+          "lng": 77.6204,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Jn of Nagawara",
+          "lat": 13.0423,
+          "lng": 77.6247,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Tin Factory",
+          "lat": 12.998,
+          "lng": 77.6756,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Marathahalli Bridge",
+          "lat": 12.95693481,
+          "lng": 77.70070592,
+          "isTerminus": false,
+          "fare": 265
+        },
+        {
+          "name": "Kadubisanahalli (J P Morgan)",
+          "lat": 12.9392,
+          "lng": 77.6953,
+          "isTerminus": false,
+          "fare": 265
+        },
+        {
+          "name": "Eco Space",
+          "lat": 12.9277,
+          "lng": 77.6809,
+          "isTerminus": false,
+          "fare": 265
+        },
+        {
+          "name": "HSR Layout 14th Main",
+          "lat": 12.9128,
+          "lng": 77.6356,
+          "isTerminus": false,
+          "fare": 265
+        },
+        {
+          "name": "Central Silk Board",
+          "lat": 12.9176,
+          "lng": 77.6225,
+          "isTerminus": false,
+          "fare": 305
+        },
+        {
+          "name": "Hosa Road",
+          "lat": 12.8724,
+          "lng": 77.6423,
+          "isTerminus": false,
+          "fare": 305
+        },
+        {
+          "name": "Electronic City",
+          "lat": 12.84816925,
+          "lng": 77.6707112,
+          "isTerminus": true,
+          "fare": 335
+        }
+      ],
+      "toAirport": [
+        "00:10",
+        "00:40",
+        "00:55",
+        "01:25",
+        "01:40",
+        "02:00",
+        "02:20",
+        "02:55",
+        "03:45",
+        "04:25",
+        "05:10",
+        "06:00",
+        "06:10",
+        "06:20",
+        "06:40",
+        "06:50",
+        "07:25",
+        "07:35",
+        "08:20",
+        "08:30",
+        "09:20",
+        "09:40",
+        "10:10",
+        "10:20",
+        "11:00",
+        "11:30",
+        "11:40",
+        "12:00",
+        "12:10",
+        "12:20",
+        "12:30",
+        "12:40",
+        "12:50",
+        "13:00",
+        "13:30",
+        "13:40",
+        "13:50",
+        "14:00",
+        "14:10",
+        "14:30",
+        "14:40",
+        "14:50",
+        "15:00",
+        "15:20",
+        "15:30",
+        "15:50",
+        "16:00",
+        "16:20",
+        "16:30",
+        "16:50",
+        "17:20",
+        "17:40",
+        "18:00",
+        "18:20",
+        "18:30",
+        "18:50",
+        "19:30",
+        "19:40",
+        "20:00",
+        "20:10",
+        "20:20",
+        "20:30",
+        "21:00",
+        "21:10",
+        "21:20",
+        "21:30",
+        "22:00",
+        "22:20",
+        "22:40",
+        "22:50",
+        "23:10",
+        "23:35",
+        "23:45"
+      ],
+      "fromAirport": [
+        "00:25",
+        "00:40",
+        "01:20",
+        "01:30",
+        "02:10",
+        "02:50",
+        "03:40",
+        "04:30",
+        "04:50",
+        "05:10",
+        "06:20",
+        "06:40",
+        "06:50",
+        "07:10",
+        "07:20",
+        "07:40",
+        "08:00",
+        "08:30",
+        "08:40",
+        "08:50",
+        "09:00",
+        "09:10",
+        "09:20",
+        "09:30",
+        "09:40",
+        "09:50",
+        "10:00",
+        "10:10",
+        "10:30",
+        "10:50",
+        "11:00",
+        "11:10",
+        "11:20",
+        "11:30",
+        "11:40",
+        "11:50",
+        "12:00",
+        "12:10",
+        "12:20",
+        "12:30",
+        "13:00",
+        "13:10",
+        "13:20",
+        "13:30",
+        "14:20",
+        "14:30",
+        "14:50",
+        "15:10",
+        "15:20",
+        "15:30",
+        "16:30",
+        "17:10",
+        "17:40",
+        "17:50",
+        "18:10",
+        "18:30",
+        "18:40",
+        "18:50",
+        "19:00",
+        "19:20",
+        "19:50",
+        "20:00",
+        "20:30",
+        "20:40",
+        "21:00",
+        "21:20",
+        "21:40",
+        "21:50",
+        "22:20",
+        "22:35",
+        "23:05",
+        "23:20",
+        "23:30",
+        "23:50"
+      ]
+    },
+    {
+      "id": "KIA-7A",
+      "terminus": "HSR BDA COMPLEX",
+      "journeyTimeMinutes": 110,
+      "stops": [
+        {
+          "name": "Kempegowda International Airport",
+          "lat": 13.2012,
+          "lng": 77.7088,
+          "isTerminus": true,
+          "fare": 0
+        },
+        {
+          "name": "Hebbala",
+          "lat": 13.0359,
+          "lng": 77.5971,
+          "isTerminus": false,
+          "fare": 180
+        },
+        {
+          "name": "Mekhri Circle",
+          "lat": 13.01450799,
+          "lng": 77.58262879,
+          "isTerminus": false,
+          "fare": 205
+        },
+        {
+          "name": "Raj Mahal Guttahalli",
+          "lat": 12.9996,
+          "lng": 77.5818,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Shivajinagara Bus Station",
+          "lat": 12.9784,
+          "lng": 77.5996,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Trinity Circle",
+          "lat": 12.9729,
+          "lng": 77.6171,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Domluru",
+          "lat": 12.9625,
+          "lng": 77.6382,
+          "isTerminus": false,
+          "fare": 255
+        },
+        {
+          "name": "Dell",
+          "lat": 12.961,
+          "lng": 77.6387,
+          "isTerminus": false,
+          "fare": 255
+        },
+        {
+          "name": "Koramangala 100ft Road (Sony Signal)",
+          "lat": 12.9348,
+          "lng": 77.6247,
+          "isTerminus": false,
+          "fare": 255
+        },
+        {
+          "name": "Koramangala Water Tank",
+          "lat": 12.9275,
+          "lng": 77.6211,
+          "isTerminus": false,
+          "fare": 255
+        },
+        {
+          "name": "HSR Layout BDA Complex",
+          "lat": 12.9114,
+          "lng": 77.6393,
+          "isTerminus": false,
+          "fare": 255
+        }
+      ],
+      "toAirport": [
+        "01:00",
+        "02:30",
+        "03:30",
+        "04:00",
+        "04:40",
+        "05:20",
+        "06:00",
+        "06:20",
+        "06:40",
+        "07:00",
+        "07:20",
+        "08:00",
+        "08:40",
+        "09:00",
+        "09:20",
+        "10:00",
+        "10:30",
+        "11:10",
+        "12:50",
+        "13:20",
+        "14:05",
+        "14:35",
+        "15:25",
+        "16:05",
+        "16:45",
+        "17:05",
+        "17:25",
+        "17:45",
+        "18:05",
+        "18:25",
+        "18:45",
+        "19:25",
+        "19:45",
+        "20:05",
+        "20:25",
+        "20:45",
+        "21:05",
+        "21:35",
+        "22:30",
+        "23:35"
+      ],
+      "fromAirport": [
+        "00:15",
+        "01:30",
+        "02:30",
+        "03:30",
+        "04:30",
+        "05:20",
+        "06:00",
+        "06:40",
+        "07:20",
+        "08:00",
+        "08:30",
+        "09:00",
+        "09:20",
+        "10:00",
+        "10:30",
+        "11:00",
+        "11:30",
+        "12:00",
+        "12:40",
+        "13:10",
+        "13:50",
+        "15:10",
+        "15:40",
+        "16:05",
+        "16:30",
+        "17:20",
+        "18:00",
+        "18:35",
+        "19:15",
+        "19:40",
+        "20:00",
+        "20:35",
+        "20:55",
+        "21:15",
+        "21:35",
+        "22:00",
+        "22:35",
+        "22:55",
+        "23:20",
+        "23:45"
+      ]
+    },
+    {
+      "id": "KIA-7",
+      "terminus": "HSR KEB JUNCTION",
+      "journeyTimeMinutes": 110,
+      "stops": [
+        {
+          "name": "Kempegowda International Airport",
+          "lat": 13.2012,
+          "lng": 77.7088,
+          "isTerminus": true,
+          "fare": 0
+        },
+        {
+          "name": "Hebbala",
+          "lat": 13.0359,
+          "lng": 77.5971,
+          "isTerminus": false,
+          "fare": 180
+        },
+        {
+          "name": "Mekhri Circle",
+          "lat": 13.01450799,
+          "lng": 77.58262879,
+          "isTerminus": false,
+          "fare": 205
+        },
+        {
+          "name": "Raj Mahal Guttahalli",
+          "lat": 12.9996,
+          "lng": 77.5818,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Vasanthnagara",
+          "lat": 12.9902,
+          "lng": 77.5925,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Cunningham Road",
+          "lat": 12.9877,
+          "lng": 77.5962,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Cubbon Metro",
+          "lat": 12.9806,
+          "lng": 77.5976,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Shanthinagara TTMC",
+          "lat": 12.95459258,
+          "lng": 77.5925092,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "St Johns Hospital",
+          "lat": 12.9339,
+          "lng": 77.6244,
+          "isTerminus": false,
+          "fare": 255
+        },
+        {
+          "name": "Koramangala Water Tank",
+          "lat": 12.9275,
+          "lng": 77.6211,
+          "isTerminus": false,
+          "fare": 255
+        },
+        {
+          "name": "HSR BDA",
+          "lat": 12.9114,
+          "lng": 77.6393,
+          "isTerminus": false,
+          "fare": 255
+        },
+        {
+          "name": "HSR Layout KEB",
+          "lat": 12.9116,
+          "lng": 77.6389,
+          "isTerminus": false,
+          "fare": 260
+        }
+      ],
+      "toAirport": [
+        "06:15",
+        "08:50",
+        "11:05",
+        "17:00",
+        "19:40",
+        "22:40"
+      ],
+      "fromAirport": [
+        "02:05",
+        "09:10",
+        "12:50",
+        "15:40",
+        "20:45",
+        "23:30"
+      ]
+    },
+    {
+      "id": "KIA-6A",
+      "terminus": "Kadugodi Bus Station",
+      "journeyTimeMinutes": 120,
+      "stops": [
+        {
+          "name": "Kempegowda International Airport",
+          "lat": 13.2012,
+          "lng": 77.7088,
+          "isTerminus": true,
+          "fare": 0
+        },
+        {
+          "name": "Hebbala",
+          "lat": 13.0359,
+          "lng": 77.5971,
+          "isTerminus": false,
+          "fare": 180
+        },
+        {
+          "name": "Manyatha Tech Park",
+          "lat": 13.0451,
+          "lng": 77.6204,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Jn of Nagawara",
+          "lat": 13.0423,
+          "lng": 77.6247,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Tin Factory",
+          "lat": 12.998,
+          "lng": 77.6756,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Hoodi",
+          "lat": 12.9919,
+          "lng": 77.7163,
+          "isTerminus": false,
+          "fare": 275
+        },
+        {
+          "name": "ITPL",
+          "lat": 12.9875598,
+          "lng": 77.73696825,
+          "isTerminus": false,
+          "fare": 275
+        },
+        {
+          "name": "Hope Farm",
+          "lat": 12.98299939,
+          "lng": 77.75226854,
+          "isTerminus": false,
+          "fare": 285
+        },
+        {
+          "name": "Kadugodi Bus Station",
+          "lat": 12.9944,
+          "lng": 77.7573,
+          "isTerminus": true,
+          "fare": 285
+        }
+      ],
+      "toAirport": [
+        "03:30",
+        "05:45",
+        "07:45",
+        "14:00",
+        "14:50"
+      ],
+      "fromAirport": [
+        "05:45",
+        "11:00",
+        "12:30",
+        "16:35",
+        "18:30"
+      ]
+    },
+    {
+      "id": "KIA-6",
+      "terminus": "Kadugodi Bus Station",
+      "journeyTimeMinutes": 120,
+      "stops": [
+        {
+          "name": "Kempegowda International Airport",
+          "lat": 13.2012,
+          "lng": 77.7088,
+          "isTerminus": true,
+          "fare": 0
+        },
+        {
+          "name": "Hebbala",
+          "lat": 13.0359,
+          "lng": 77.5971,
+          "isTerminus": false,
+          "fare": 180
+        },
+        {
+          "name": "Manyatha Tech Park",
+          "lat": 13.0451,
+          "lng": 77.6204,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Jn of Nagawara",
+          "lat": 13.0423,
+          "lng": 77.6247,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Tin Factory",
+          "lat": 12.998,
+          "lng": 77.6756,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Marathahalli Bridge",
+          "lat": 12.95693481,
+          "lng": 77.70070592,
+          "isTerminus": false,
+          "fare": 265
+        },
+        {
+          "name": "Kundalahalli Gate",
+          "lat": 12.9678,
+          "lng": 77.7127,
+          "isTerminus": false,
+          "fare": 285
+        },
+        {
+          "name": "Siddapura",
+          "lat": 12.9554,
+          "lng": 77.6599,
+          "isTerminus": false,
+          "fare": 285
+        },
+        {
+          "name": "Varthur Kodi",
+          "lat": 12.95706417,
+          "lng": 77.74563342,
+          "isTerminus": false,
+          "fare": 285
+        },
+        {
+          "name": "White Field Post Office",
+          "lat": 12.9698,
+          "lng": 77.7499,
+          "isTerminus": false,
+          "fare": 285
+        },
+        {
+          "name": "Hope Farm",
+          "lat": 12.98299939,
+          "lng": 77.75226854,
+          "isTerminus": false,
+          "fare": 285
+        },
+        {
+          "name": "Kadugodi Bus Station",
+          "lat": 12.9944,
+          "lng": 77.7573,
+          "isTerminus": true,
+          "fare": 285
+        }
+      ],
+      "toAirport": [
+        "05:00",
+        "06:05",
+        "06:45",
+        "07:50",
+        "08:45",
+        "11:50",
+        "16:15",
+        "17:20",
+        "18:05",
+        "18:55",
+        "19:15",
+        "20:30",
+        "22:20",
+        "23:00"
+      ],
+      "fromAirport": [
+        "01:00",
+        "02:30",
+        "03:00",
+        "06:30",
+        "07:30",
+        "08:45",
+        "09:55",
+        "11:10",
+        "11:45",
+        "14:30",
+        "15:30",
+        "16:30",
+        "17:40",
+        "18:30",
+        "20:15",
+        "21:10",
+        "22:30",
+        "23:20"
+      ]
+    },
+    {
+      "id": "KIA-5D",
+      "terminus": "Art of living (Sri.Ravishankar Ashram) Kanakapura Road",
+      "journeyTimeMinutes": 140,
+      "stops": [
+        {
+          "name": "Kempegowda International Airport",
+          "lat": 13.2012,
+          "lng": 77.7088,
+          "isTerminus": true,
+          "fare": 0
+        },
+        {
+          "name": "Hebbala",
+          "lat": 13.0359,
+          "lng": 77.5971,
+          "isTerminus": false,
+          "fare": 180
+        },
+        {
+          "name": "Mekhri Circle",
+          "lat": 13.01450799,
+          "lng": 77.58262879,
+          "isTerminus": false,
+          "fare": 205
+        },
+        {
+          "name": "Raj Mahal Guttahalli",
+          "lat": 12.9996,
+          "lng": 77.5818,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Cubbon Metro",
+          "lat": 12.9806,
+          "lng": 77.5976,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Shanthinagara TTMC",
+          "lat": 12.95459258,
+          "lng": 77.5925092,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Jayanagara TTMC",
+          "lat": 12.9284,
+          "lng": 77.5913,
+          "isTerminus": false,
+          "fare": 255
+        },
+        {
+          "name": "Jayanagara 5th Block",
+          "lat": 12.9208,
+          "lng": 77.5912,
+          "isTerminus": false,
+          "fare": 255
+        },
+        {
+          "name": "JP Nagara 6th Phase",
+          "lat": 12.9094,
+          "lng": 77.5849,
+          "isTerminus": false,
+          "fare": 255
+        },
+        {
+          "name": "Konanakunte Cross",
+          "lat": 12.8895,
+          "lng": 77.5739,
+          "isTerminus": false,
+          "fare": 275
+        },
+        {
+          "name": "Thalagattapura",
+          "lat": 12.8711,
+          "lng": 77.5451,
+          "isTerminus": false,
+          "fare": 290
+        },
+        {
+          "name": "Silk Institute (Nice Road Junction)",
+          "lat": 12.8631,
+          "lng": 77.5458,
+          "isTerminus": false,
+          "fare": 290
+        },
+        {
+          "name": "Art of Living",
+          "lat": 12.8347,
+          "lng": 77.5933,
+          "isTerminus": false,
+          "fare": 300
+        },
+        {
+          "name": "Brigade Meadows Kanakapura Road",
+          "lat": 12.8122,
+          "lng": 77.5255,
+          "isTerminus": false,
+          "fare": 310
+        }
+      ],
+      "toAirport": [
+        "04:00",
+        "05:15",
+        "06:20",
+        "06:40",
+        "07:40",
+        "08:20",
+        "09:50",
+        "11:30",
+        "16:45",
+        "18:00",
+        "19:10",
+        "20:20",
+        "20:50",
+        "21:50",
+        "22:20",
+        "23:00"
+      ],
+      "fromAirport": [
+        "01:00",
+        "02:30",
+        "03:30",
+        "04:30",
+        "05:10",
+        "06:15",
+        "06:50",
+        "08:10",
+        "14:10",
+        "15:10",
+        "16:20",
+        "17:10",
+        "17:50",
+        "18:30",
+        "19:00",
+        "20:10"
+      ]
+    },
+    {
+      "id": "KIA-5",
+      "terminus": "Banashankari TTMC",
+      "journeyTimeMinutes": 120,
+      "stops": [
+        {
+          "name": "Kempegowda International Airport",
+          "lat": 13.2012,
+          "lng": 77.7088,
+          "isTerminus": true,
+          "fare": 0
+        },
+        {
+          "name": "Hebbala",
+          "lat": 13.0359,
+          "lng": 77.5971,
+          "isTerminus": false,
+          "fare": 180
+        },
+        {
+          "name": "Mekhri Circle",
+          "lat": 13.01450799,
+          "lng": 77.58262879,
+          "isTerminus": false,
+          "fare": 205
+        },
+        {
+          "name": "Raj Mahal Guttahalli",
+          "lat": 12.9996,
+          "lng": 77.5818,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Cubbon Metro",
+          "lat": 12.9806,
+          "lng": 77.5976,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Shanthinagara TTMC",
+          "lat": 12.95459258,
+          "lng": 77.5925092,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Jayanagara TTMC",
+          "lat": 12.9284,
+          "lng": 77.5913,
+          "isTerminus": false,
+          "fare": 255
+        },
+        {
+          "name": "Jayanagara 5th Block",
+          "lat": 12.9208,
+          "lng": 77.5912,
+          "isTerminus": false,
+          "fare": 255
+        },
+        {
+          "name": "JP Nagara 6th Phase",
+          "lat": 12.9094,
+          "lng": 77.5849,
+          "isTerminus": false,
+          "fare": 255
+        },
+        {
+          "name": "Banashankari Bus Station",
+          "lat": 12.91767509,
+          "lng": 77.57401765,
+          "isTerminus": false,
+          "fare": 275
+        }
+      ],
+      "toAirport": [
+        "00:05",
+        "00:40",
+        "01:30",
+        "07:35",
+        "09:10",
+        "10:10",
+        "11:00",
+        "12:00",
+        "12:30",
+        "13:00",
+        "13:30",
+        "14:00",
+        "14:30",
+        "15:00",
+        "15:35",
+        "16:00",
+        "16:25",
+        "17:05",
+        "17:25",
+        "17:45",
+        "18:05",
+        "18:40",
+        "19:20",
+        "19:50",
+        "20:10",
+        "21:20",
+        "22:40"
+      ],
+      "fromAirport": [
+        "00:30",
+        "01:55",
+        "03:00",
+        "05:30",
+        "06:30",
+        "07:30",
+        "07:50",
+        "08:30",
+        "08:50",
+        "09:10",
+        "09:30",
+        "09:50",
+        "10:10",
+        "10:35",
+        "11:05",
+        "11:35",
+        "12:20",
+        "12:55",
+        "13:30",
+        "13:55",
+        "15:20",
+        "15:50",
+        "18:10",
+        "19:20",
+        "20:20",
+        "20:40",
+        "21:00",
+        "21:35",
+        "22:10",
+        "22:45",
+        "23:30"
+      ]
+    },
+    {
+      "id": "KIA-4A",
+      "terminus": "WFTTMC",
+      "journeyTimeMinutes": 120,
+      "stops": [
+        {
+          "name": "Kempegowda International Airport",
+          "lat": 13.2012,
+          "lng": 77.7088,
+          "isTerminus": true,
+          "fare": 0
+        },
+        {
+          "name": "Hebbala",
+          "lat": 13.0359,
+          "lng": 77.5971,
+          "isTerminus": false,
+          "fare": 180
+        },
+        {
+          "name": "Mekhri Circle",
+          "lat": 13.01450799,
+          "lng": 77.58262879,
+          "isTerminus": false,
+          "fare": 205
+        },
+        {
+          "name": "JC Nagara",
+          "lat": 12.9972,
+          "lng": 77.5919,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Nandidurga Road",
+          "lat": 13.0039,
+          "lng": 77.5954,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Coles Park",
+          "lat": 12.9926,
+          "lng": 77.6101,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "MEG Centre",
+          "lat": 12.9829,
+          "lng": 77.6202,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Trinity Circle",
+          "lat": 12.9729,
+          "lng": 77.6171,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Halasuru",
+          "lat": 12.9759,
+          "lng": 77.6269,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Indiranagara KFC",
+          "lat": 13.02766486,
+          "lng": 77.49366585,
+          "isTerminus": false,
+          "fare": 265
+        },
+        {
+          "name": "HAL Main Gate",
+          "lat": 12.9591,
+          "lng": 77.6484,
+          "isTerminus": false,
+          "fare": 265
+        },
+        {
+          "name": "Marathahalli Bridge",
+          "lat": 12.95693481,
+          "lng": 77.70070592,
+          "isTerminus": false,
+          "fare": 265
+        },
+        {
+          "name": "Kundalahalli Gate",
+          "lat": 12.9678,
+          "lng": 77.7127,
+          "isTerminus": false,
+          "fare": 285
+        },
+        {
+          "name": "AECS Layout Cross",
+          "lat": 12.9674,
+          "lng": 77.7056,
+          "isTerminus": false,
+          "fare": 285
+        },
+        {
+          "name": "White Field TTMC",
+          "lat": 12.9764054,
+          "lng": 77.72685958,
+          "isTerminus": false,
+          "fare": 285
+        }
+      ],
+      "toAirport": [
+        "03:00",
+        "04:00",
+        "04:40",
+        "05:30",
+        "06:30",
+        "12:50",
+        "13:40",
+        "14:55",
+        "15:20",
+        "16:20",
+        "17:05",
+        "17:15",
+        "18:20",
+        "18:45"
+      ],
+      "fromAirport": [
+        "00:05",
+        "01:50",
+        "08:30",
+        "09:30",
+        "10:45",
+        "11:00",
+        "12:05",
+        "12:55",
+        "13:30",
+        "15:10",
+        "20:20",
+        "21:30",
+        "22:10",
+        "23:00",
+        "23:50"
+      ]
+    },
+    {
+      "id": "KIA-4",
+      "terminus": "HAL Main Gate",
+      "journeyTimeMinutes": 110,
+      "stops": [
+        {
+          "name": "Kempegowda International Airport",
+          "lat": 13.2012,
+          "lng": 77.7088,
+          "isTerminus": true,
+          "fare": 0
+        },
+        {
+          "name": "Hebbala",
+          "lat": 13.0359,
+          "lng": 77.5971,
+          "isTerminus": false,
+          "fare": 180
+        },
+        {
+          "name": "Mekhri Circle",
+          "lat": 13.01450799,
+          "lng": 77.58262879,
+          "isTerminus": false,
+          "fare": 205
+        },
+        {
+          "name": "JC Nagara",
+          "lat": 12.9972,
+          "lng": 77.5919,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Nandidurga Road",
+          "lat": 13.0039,
+          "lng": 77.5954,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Coles Park",
+          "lat": 12.9926,
+          "lng": 77.6101,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "MEG Centre",
+          "lat": 12.9829,
+          "lng": 77.6202,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Trinity Circle",
+          "lat": 12.9729,
+          "lng": 77.6171,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Halasuru",
+          "lat": 12.9759,
+          "lng": 77.6269,
+          "isTerminus": false,
+          "fare": 240
+        },
+        {
+          "name": "Indiranagara KFC",
+          "lat": 13.02766486,
+          "lng": 77.49366585,
+          "isTerminus": false,
+          "fare": 265
+        },
+        {
+          "name": "HAL Main Gate",
+          "lat": 12.9591,
+          "lng": 77.6484,
+          "isTerminus": true,
+          "fare": 265
+        }
+      ],
+      "toAirport": [
+        "05:55",
+        "07:00",
+        "08:00",
+        "09:00",
+        "09:50",
+        "10:50",
+        "11:30",
+        "17:45",
+        "19:05",
+        "20:00",
+        "21:05",
+        "21:30",
+        "22:00",
+        "23:15"
+      ],
+      "fromAirport": [
+        "03:50",
+        "06:00",
+        "06:50",
+        "08:00",
+        "09:00",
+        "16:00",
+        "17:05",
+        "18:10",
+        "19:05",
+        "19:25",
+        "20:00",
+        "21:00"
+      ]
+    }
+  ]
+}

@@ -24,4 +24,34 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .scrollbar-none {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  /* Custom Dark-theme Leaflet Tooltip */
+  .leaflet-tooltip.custom-stop-tooltip {
+    background-color: #0c0a09 !important; /* bg-neutral-950 */
+    border: 1px solid #262626 !important; /* border-neutral-800 */
+    color: #f5f5f5 !important;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.5) !important;
+    border-radius: 0.75rem !important;
+    font-family: ui-sans-serif, system-ui, sans-serif !important;
+    padding: 0 !important;
+  }
+  .leaflet-tooltip-top.custom-stop-tooltip::before {
+    border-top-color: #0c0a09 !important;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+  }
 }
