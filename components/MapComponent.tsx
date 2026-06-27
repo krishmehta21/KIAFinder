@@ -50,15 +50,18 @@ export default function MapComponent({
       // Dark fallback background while tiles load
       mapRef.current.getContainer().style.background = '#0a0a0a';
 
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_matter/{z}/{x}/{y}@2x.png', {
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 18,
         minZoom: 10,
         keepBuffer: 4,
         updateWhenIdle: false,
         updateWhenZooming: false,
-        subdomains: ['a', 'b', 'c', 'd'],
-        attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
+        attribution: '&copy; OpenStreetMap contributors',
       }).addTo(mapRef.current);
+
+      // Invert OSM tiles to dark mode via CSS filter
+      const tiles = mapRef.current.getContainer().querySelector('.leaflet-tile-pane') as HTMLElement;
+      if (tiles) tiles.style.filter = 'invert(1) hue-rotate(180deg) brightness(0.7) saturate(0.8)';
 
       L.control.zoom({
         position: 'bottomright',
