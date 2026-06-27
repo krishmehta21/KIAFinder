@@ -56,6 +56,9 @@ export default function StopCard({
   // Link for the new full timetable page
   const timetableUrl = `/timetable?stopName=${encodeURIComponent(stop.stopName)}&routes=${stop.routes.map((r) => r.routeId).join(',')}&userLat=${userLat || ''}&userLng=${userLng || ''}`;
 
+  // Drive time calculation (assuming 30km/h average)
+  const driveMins = Math.round((stop.distanceKm / 30) * 60);
+
   return (
     <div
       id={elementId}
@@ -68,8 +71,8 @@ export default function StopCard({
     >
       <div className="flex justify-between items-start gap-4">
         <div className="flex-1 min-w-0">
-          {/* Stop Name */}
-          <h3 className="text-lg font-bold text-neutral-100 mb-2 truncate">
+          {/* Stop Name (Wrap text, don't truncate) */}
+          <h3 className="text-lg font-bold text-neutral-100 mb-2 whitespace-normal break-words">
             {stop.stopName}
           </h3>
 
@@ -97,15 +100,19 @@ export default function StopCard({
         )}
       </div>
 
-      {/* Stats row: Distance & Walk Time */}
-      <div className="grid grid-cols-2 gap-2 py-3 px-4 my-3 rounded-xl bg-neutral-950/40 border border-neutral-800/40 text-center">
+      {/* Stats row: Distance, Walk Time, Drive Time */}
+      <div className="grid grid-cols-3 gap-2 py-3 px-4 my-3 rounded-xl bg-neutral-950/40 border border-neutral-800/40 text-center">
         <div>
           <span className="block text-[10px] uppercase tracking-wider font-semibold text-neutral-500">Distance</span>
           <span className="text-sm font-bold text-neutral-200">~{stop.distanceKm} km</span>
         </div>
         <div>
-          <span className="block text-[10px] uppercase tracking-wider font-semibold text-neutral-500">Walk Time</span>
-          <span className="text-sm font-bold text-neutral-200">~{stop.walkingMins} min</span>
+          <span className="block text-[10px] uppercase tracking-wider font-semibold text-neutral-500">Walk</span>
+          <span className="text-sm font-bold text-neutral-200">🚶 ~{stop.walkingMins}m</span>
+        </div>
+        <div>
+          <span className="block text-[10px] uppercase tracking-wider font-semibold text-neutral-500">Drive</span>
+          <span className="text-sm font-bold text-neutral-200">🚗 ~{driveMins}m</span>
         </div>
       </div>
 
