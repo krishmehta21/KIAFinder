@@ -48,15 +48,16 @@ export default function MapComponent({
       }).setView([userLat, userLng], 13);
 
       // Dark fallback background while tiles load
-      mapRef.current.getContainer().style.background = '#1a1a2e';
+      mapRef.current.getContainer().style.background = '#0a0a0a';
 
-      L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_matter/{z}/{x}/{y}@2x.png', {
         maxZoom: 18,
         minZoom: 10,
         keepBuffer: 4,
         updateWhenIdle: false,
         updateWhenZooming: false,
-        attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>',
+        subdomains: ['a', 'b', 'c', 'd'],
+        attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
       }).addTo(mapRef.current);
 
       L.control.zoom({
@@ -225,8 +226,8 @@ export default function MapComponent({
   }, [userLat, userLng, stops, selectedIndex]);
 
   return (
-    <div className="w-full h-full rounded-2xl overflow-hidden border border-neutral-800/80 shadow-2xl relative" style={{ background: '#1a1a2e' }}>
-      <div ref={mapContainerRef} className="w-full h-full" style={{ background: '#1a1a2e' }} />
+    <div className="w-full h-full rounded-2xl overflow-hidden border border-neutral-800/80 shadow-2xl relative" style={{ background: '#0a0a0a' }}>
+      <div ref={mapContainerRef} className="w-full h-full" style={{ background: '#0a0a0a' }} />
     </div>
   );
 }
