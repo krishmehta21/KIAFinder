@@ -47,7 +47,7 @@ export default function MapComponent({
         attributionControl: false,
       }).setView([userLat, userLng], 13);
 
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_matter_no_labels/{z}/{x}/{y}{r}.png', {
         maxZoom: 20,
       }).addTo(mapRef.current);
 
@@ -76,9 +76,9 @@ export default function MapComponent({
     const userIcon = L.divIcon({
       className: 'user-pin-container',
       html: `
-        <div class="relative w-8 h-8 flex items-center justify-center">
-          <div class="absolute w-6 h-6 rounded-full bg-rose-500/30 animate-ping"></div>
-          <div class="absolute w-4 h-4 rounded-full bg-rose-500 border border-white shadow-lg"></div>
+        <div style="position:relative;width:32px;height:32px;display:flex;align-items:center;justify-content:center;">
+          <div style="position:absolute;width:24px;height:24px;border-radius:50%;background:rgba(239,68,68,0.25);animation:ping 1.5s cubic-bezier(0,0,0.2,1) infinite;"></div>
+          <div style="position:absolute;width:14px;height:14px;border-radius:50%;background:#ef4444;border:2.5px solid white;box-shadow:0 0 8px rgba(239,68,68,0.8),0 0 2px rgba(0,0,0,0.8);"></div>
         </div>
       `,
       iconSize: [32, 32],
@@ -112,28 +112,32 @@ export default function MapComponent({
       if (stop.lat && stop.lng) {
         bounds.extend([stop.lat, stop.lng]);
 
-        // Simple colored dot or selected stop name label icon
+        // Custom DivIcon markers — selected gets label + pulse, others get bright dot
         const isSelectedStop = idx === selectedIndex;
         
-        const stopIcon = L.divIcon({
-          className: isSelectedStop ? 'stop-label-icon' : 'stop-dot-icon',
-          html: isSelectedStop
-            ? `
-              <div class="flex flex-col items-center">
-                <div class="px-2.5 py-1.5 rounded-xl bg-neutral-950 border border-emerald-400 text-emerald-400 text-[10px] font-black uppercase tracking-wider shadow-2xl whitespace-nowrap mb-1.5 font-sans">
-                  ${stop.stopName}
+        const stopIcon = isSelectedStop
+          ? L.divIcon({
+              className: '',
+              html: `
+                <div style="display:flex;flex-direction:column;align-items:center;">
+                  <div style="padding:4px 10px;border-radius:10px;background:#0a0a0a;border:1px solid #22c55e;color:#22c55e;font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:1px;white-space:nowrap;margin-bottom:6px;font-family:ui-sans-serif,system-ui,sans-serif;box-shadow:0 4px 12px rgba(0,0,0,0.5);">
+                    ${stop.stopName}
+                  </div>
+                  <div style="position:relative;width:18px;height:18px;display:flex;align-items:center;justify-content:center;">
+                    <div style="position:absolute;width:28px;height:28px;border-radius:50%;border:2px solid rgba(34,197,94,0.4);animation:ping 1.5s cubic-bezier(0,0,0.2,1) infinite;"></div>
+                    <div style="width:18px;height:18px;border-radius:50%;background:#22c55e;border:2.5px solid white;box-shadow:0 0 12px rgba(34,197,94,1),0 0 4px white;"></div>
+                  </div>
                 </div>
-                <div class="w-3.5 h-3.5 rounded-full bg-emerald-400 border-2 border-neutral-950 shadow-md ring-4 ring-emerald-500/30"></div>
-              </div>
-            `
-            : `
-              <div class="w-6 h-6 flex items-center justify-center">
-                <div class="w-3 h-3 rounded-full bg-emerald-600 border border-neutral-950 hover:bg-emerald-400 shadow-md"></div>
-              </div>
-            `,
-          iconSize: isSelectedStop ? [120, 50] : [24, 24],
-          iconAnchor: isSelectedStop ? [60, 42] : [12, 12],
-        });
+              `,
+              iconSize: [140, 56],
+              iconAnchor: [70, 50],
+            })
+          : L.divIcon({
+              className: '',
+              html: `<div style="width:14px;height:14px;background:#22c55e;border:2.5px solid white;border-radius:50%;box-shadow:0 0 8px rgba(34,197,94,0.8),0 0 2px rgba(0,0,0,0.8);"></div>`,
+              iconSize: [14, 14],
+              iconAnchor: [7, 7],
+            });
 
         const marker = L.marker([stop.lat, stop.lng], { icon: stopIcon });
 

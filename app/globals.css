@@ -55,3 +55,17 @@ body {
     50% { opacity: 0.4; }
   }
 }
+
+/* Global keyframes for Leaflet marker inline animations */
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+/* Remove Leaflet's default DivIcon white background and shadow */
+.leaflet-div-icon {
+  background: transparent !important;
+  border: none !important;
+}
