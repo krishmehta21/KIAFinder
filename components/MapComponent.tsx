@@ -47,8 +47,16 @@ export default function MapComponent({
         attributionControl: false,
       }).setView([userLat, userLng], 13);
 
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_matter_no_labels/{z}/{x}/{y}{r}.png', {
-        maxZoom: 20,
+      // Dark fallback background while tiles load
+      mapRef.current.getContainer().style.background = '#1a1a2e';
+
+      L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
+        maxZoom: 18,
+        minZoom: 10,
+        keepBuffer: 4,
+        updateWhenIdle: false,
+        updateWhenZooming: false,
+        attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>',
       }).addTo(mapRef.current);
 
       L.control.zoom({
@@ -217,8 +225,8 @@ export default function MapComponent({
   }, [userLat, userLng, stops, selectedIndex]);
 
   return (
-    <div className="w-full h-full rounded-2xl overflow-hidden border border-neutral-800/80 shadow-2xl relative">
-      <div ref={mapContainerRef} className="w-full h-full" />
+    <div className="w-full h-full rounded-2xl overflow-hidden border border-neutral-800/80 shadow-2xl relative" style={{ background: '#1a1a2e' }}>
+      <div ref={mapContainerRef} className="w-full h-full" style={{ background: '#1a1a2e' }} />
     </div>
   );
 }
